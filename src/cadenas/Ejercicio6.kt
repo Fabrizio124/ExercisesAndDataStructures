@@ -1,9 +1,11 @@
 package cadenas
 
 fun main(){
-    var usuario = readLine()!!.toString()
+    println("Cual es tu frase")
+    var usuario = readLine().toString()
 
-   //if (usuario.lastIndex == usuario.lowercase()){
+    println("Introduce una vocal")
+    var vocal = readLine().toString()
+    println(usuario  +  vocal.uppercase())
 
-   //}
 }
