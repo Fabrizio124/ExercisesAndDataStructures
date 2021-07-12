@@ -15,5 +15,5 @@ fun main(){
     }
 
 
-    println(nuevo)
+    println(i)
 }
