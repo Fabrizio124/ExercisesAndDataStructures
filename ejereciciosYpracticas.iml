@@ -2,7 +2,12 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" useProjectSettings="false" />
+      <configuration version="3" platform="JVM 15" allPlatforms="JVM [15]">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="15" />
+        </compilerArguments>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">

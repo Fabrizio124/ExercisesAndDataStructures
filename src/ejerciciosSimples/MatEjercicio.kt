@@ -7,6 +7,7 @@ fun main ()  {
     var s2 = 2*5
     s2 *= s2
     val result = s1.toFloat() / s2.toFloat()
+    println(s1)
     println(result)
 
 }

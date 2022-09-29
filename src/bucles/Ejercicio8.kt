@@ -7,7 +7,6 @@ fun main(){
     var numero = readLine()!!.toInt()
     for(i in 0..numero){
 
-
         if(i % 2 == 1){
             lista = lista + i
             println(lista.reversed())

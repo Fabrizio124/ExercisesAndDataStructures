@@ -1,7 +1,7 @@
 package cadenas
 
 fun main(){
-    println("Introduce los productos de tu cesta de compra")
+    println("Introduce los productos de tu cesta de compra(separado con una coma)")
     var productos = readLine()!!.toString()
     var coma = productos.split(",")
 
